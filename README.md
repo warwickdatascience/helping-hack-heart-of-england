@@ -115,11 +115,7 @@ The competition will run from **7pm on Friday the 13th November** to **7pm on Su
 
 #### Judging
 
-For each submission, the RMSE score is computed using the testing data (that is, rows that previously had missing values). The formula for this is given by 
-
-$$\text{RMSE} = \sqrt(\sum_i\left(\hat{y_i} - y_i\right)^2)$$
-
-where $y$ are the true index values are $\hat{y}$ are predictions. As a rule of thumb, this will treat a few large errors worse than several small errors.
+For each submission, the RMSE score is computed using the testing data (that is, rows that previously had missing values). As a rule of thumb, this will treat a few large errors worse than several small errors.
 
 This submission with the best RMSE for each team will be displayed on the leaderboard.
 
@@ -232,14 +228,14 @@ This hackathon was written and is primarily managed by Tim Hargreaves. He can be
 
 ### Socials
 
-# Warwick Data Science Society
+#### Warwick Data Science Society
 
 - [Facebook](https://link.wdss.io/facebook)
 - [Linkedin](https://link.wdss.io/linkedin)
 - [Instagram](https://link.wdss.io/instagram)
 - [YouTube](https://link.wdss.io/youtube)
 
-# Warwick Statistics Society
+#### Warwick Statistics Society
 
 - [Facebook](https://www.facebook.com/WarwickStatsSociety)
 - [Linkedin](https://www.linkedin.com/company/warwickstatisticssociety/)
