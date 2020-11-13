@@ -28,7 +28,7 @@ There's a lot of information on this page but here are the most important steps 
 1. Join the [Microsoft Teams team](https://teams.microsoft.com/l/team/19%3a29e7091294a54889b597e0b482357a03%40thread.tacv2/conversations?groupId=65592f3f-20ad-41a8-b0a9-cece40e28023&tenantId=09bacfbd-47ef-4465-9265-3546f2eaf6bc) for the hackathon and turn on notifications in all channels to avoid missing out on any important updates
 2. If you've not already, checkout the [kick-off talk](https://www.youtube.com/watch?v=RgifF8rLbX4) on YouTube
 3. Click 'Going' on the hackathon's [Facebook event](https://www.facebook.com/events/824273791735565/) to be notified when workshops are arranged
-4. If you wish to take part in the machine learning competition, you will likely want to form a team. Checkout the 'Networking' channel in teams for discussions/networking sessions on forming teams. Once you have a team, fill in the form [here](), and we will get in touch soon after with your login details for the submission portal.
+4. If you wish to take part in the machine learning competition, you will likely want to form a team. Checkout the 'Networking' channel in teams for discussions/networking sessions on forming teams. Once you have a team, fill in the form [here](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=vc-6Ce9HZUSSZTVG8ur2vOEbfIgZakBLnZEi9heYVBtUNVNVMEtHN0dMWlA1VFZBVFZQT0k1UVgzVy4u), and we will get in touch soon after with your login details for the submission portal.
 
 All other relevant details should be available on this page, but if you have any questions, feel free to reach out to us using the contact links [below](#contact). Happy hacking!
 
@@ -105,7 +105,7 @@ Local authority lookup tables are provided for this purpose:
 
 #### Submission
 
-To submit, you will need to have created a team using [this form](). Once this is filled out, you will soon recieve an email giving you login details to our [submission portal]().
+To submit, you will need to have created a team using [this form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=vc-6Ce9HZUSSZTVG8ur2vOEbfIgZakBLnZEi9heYVBtUNVNVMEtHN0dMWlA1VFZBVFZQT0k1UVgzVy4u). Once this is filled out, you will soon recieve an email giving you login details to our [submission portal](https://cloud.wdss.io/).
 
 You can use this portal to submit (as often as once per hour) a submission CSV file along with a Jupyter notebook that can be used to generate the CSV. 
 
