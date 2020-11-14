@@ -61,6 +61,13 @@ We will also be hosting numerous workshops to support less experienced data scie
 | 14th November | 10-10.45am |    Machine Learning with R   |
 | 14th November | 11-11.45am | Machine Learning with Python |
 
+#### Workshop Recordings/Resources
+
+- Machine Learning with R
+  - Video (Coming soon)
+  - [HTML Notebook](http://warwickdatascience.github.io/helping-hack-heart-of-england/notebooks/tutorial.nb.html)
+  - [Raw Notebook](https://raw.githubusercontent.com/warwickdatascience/helping-hack-heart-of-england/main/notebooks/tutorial.Rmd) (Open in RStudio Cloud)
+
 ## Competition Details
 
 ### Machine Learning Competition
