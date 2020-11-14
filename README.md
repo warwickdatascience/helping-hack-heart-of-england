@@ -94,12 +94,12 @@ Each expense (`expense`) is assigned a expense category (`category`) and has an 
 In fact, this datasets contains expenses for more than just local authorities. The `class` column breaks down the types of local authority district as so:
 
 ```
-LONDON BOROUGHS		L
+LONDON BOROUGHS	        L
 METROPOLITAN DISTRICTS		MD
-UNITARY AUTHORITIES		UA
+UNITARY AUTHORITIES		   UA
 SHIRE COUNTIES		        SC
-SHIRE DISTRICTS		SD
-OTHER AUTHORITIES		O
+SHIRE DISTRICTS		       SD
+OTHER AUTHORITIES		     O
 ```
 
 Metropolitan and other authorities (e.g. police force areas) do not appear in the `imd.csv` dataset but may provide useful information. For example, police/fire spending is rarely performed at a local authority level and so may need to be taken from these larger collectives.
@@ -121,7 +121,7 @@ You can use this portal to submit (as often as once per hour) a submission CSV f
 
 The submitted CSV should be a copy of `imd.csv` but with missing values replaced with your predictions.
 
-The competition will run from **7pm on Friday the 13th November** to **7pm on Sunday the 5th December**.
+The competition will run from **7pm on Friday the 13th November** to **7pm on Sunday the 15th November**.
 
 #### Judging
 
