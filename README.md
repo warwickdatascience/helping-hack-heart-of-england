@@ -67,6 +67,10 @@ We will also be hosting numerous workshops to support less experienced data scie
   - Video (Coming soon)
   - [HTML Notebook](http://warwickdatascience.github.io/helping-hack-heart-of-england/notebooks/tutorial.nb.html)
   - [Raw Notebook](https://raw.githubusercontent.com/warwickdatascience/helping-hack-heart-of-england/main/notebooks/tutorial.Rmd) (Open in RStudio Cloud)
+- Machine Learning with Python
+  - Video (Coming soon)
+  - [HTML Notebook](http://warwickdatascience.github.io/helping-hack-heart-of-england/notebooks/tutorial.ipynb)
+  - [Raw Notebook](https://raw.githubusercontent.com/warwickdatascience/helping-hack-heart-of-england/main/notebooks/tutorial.ipynb) (Open in Google Colab)
 
 ## Competition Details
 
