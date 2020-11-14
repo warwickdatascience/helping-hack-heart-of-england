@@ -7,8 +7,8 @@ Spotted a mistake, dead link, or have suggestions for improvements? Give us a sh
   * [Welcome to the Hackathon](#welcome-to-the-hackathon)
   * [Event Timeline](#event-timeline)
 * [Competitions Details](#competition-details)
-  * [Machine Learning Competition](machine-learning-competition)
-  * [Data Story-Telling Competition](data-story-telling-competition)
+  * [Machine Learning Competition](#machine-learning-competition)
+  * [Data Story-Telling Competition](#data-story-telling-competition)
   * [Prizes](#prizes-and-sponsors)
 * [Hackathon Parters](#hackathon-partners)
   * [Heart of England](#heart-of-england)
@@ -69,7 +69,7 @@ We will also be hosting numerous workshops to support less experienced data scie
   - [Raw Notebook](https://raw.githubusercontent.com/warwickdatascience/helping-hack-heart-of-england/main/notebooks/tutorial.Rmd) (Open in RStudio Cloud)
 - Machine Learning with Python
   - Video (Coming soon)
-  - [Colab Notebook](https://colab.research.google.com/github/warwickdatascience/helping-hack-heart-of-england/blob/master/notebooks/tutorial.ipynb)
+  - [Colab Notebook](https://colab.research.google.com/github/warwickdatascience/helping-hack-heart-of-england/blob/main/notebooks/tutorial.ipynb)
 
 ## Competition Details
 
@@ -87,19 +87,19 @@ Although many other relevant datasets are available on the web, submissions for 
 
 The most important dataset is [imd.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/imd.csv). This gives indices of multiple deprivation for multiple local authorities districts (identified by their ONS code `lad_code` and name `lad_name`) in both 2015 and 2019. 20% of 2019 indices have been removed. It is your job to predict these using machine learning.
 
-To aid in this task, you are provided with the dataset [ref.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/imd.csv) which contains revenue expenditure and financing data for these same local authority districts over the years 2016 to 2019. 
+To aid in this task, you are provided with the dataset [ref.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/ref.csv) which contains revenue expenditure and financing data for these same local authority districts over the years 2016 to 2019. 
 
 Each expense (`expense`) is assigned a expense category (`category`) and has an associated expenditure for each year/local authority (`expenditure`) which is measured in thousands of pounds. Note, this can be negative if a profit was made (for example of a local authority car park brings in more profit than its upkeep cost).
 
 In fact, this datasets contains expenses for more than just local authorities. The `class` column breaks down the types of local authority district as so:
 
 ```
-LONDON BOROUGHS		L
+LONDON BOROUGHS	        L
 METROPOLITAN DISTRICTS		MD
-UNITARY AUTHORITIES		UA
+UNITARY AUTHORITIES		   UA
 SHIRE COUNTIES		        SC
-SHIRE DISTRICTS		SD
-OTHER AUTHORITIES		O
+SHIRE DISTRICTS		       SD
+OTHER AUTHORITIES		     O
 ```
 
 Metropolitan and other authorities (e.g. police force areas) do not appear in the `imd.csv` dataset but may provide useful information. For example, police/fire spending is rarely performed at a local authority level and so may need to be taken from these larger collectives.
@@ -108,7 +108,7 @@ Local authority lookup tables are provided for this purpose:
 
 - Combined Authorities: [lad_ca_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_ca_lut.csv)
 - Counties: [lad_cty_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_cty_lut.csv)
-- Fire and Rescue: [lad_far_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_far_lut.csv)
+- Fire and Rescue: [lad_fra_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_fra_lut.csv)
 - Police Force Areas: [lad_pfa_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_pfa_lut.csv)
 
 `ref.csv` also contains information on national parks and waste facilities but lookup tables for these are hard to come by. Manual lookups or regex matching would be valid workarounds to this problem if one felt it was necessary.
@@ -121,7 +121,7 @@ You can use this portal to submit (as often as once per hour) a submission CSV f
 
 The submitted CSV should be a copy of `imd.csv` but with missing values replaced with your predictions.
 
-The competition will run from **7pm on Friday the 13th November** to **7pm on Sunday the 5th December**.
+The competition will run from **7pm on Friday the 13th November** to **7pm on Sunday the 15th November**.
 
 #### Judging
 
