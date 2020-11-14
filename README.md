@@ -7,8 +7,8 @@ Spotted a mistake, dead link, or have suggestions for improvements? Give us a sh
   * [Welcome to the Hackathon](#welcome-to-the-hackathon)
   * [Event Timeline](#event-timeline)
 * [Competitions Details](#competition-details)
-  * [Machine Learning Competition](machine-learning-competition)
-  * [Data Story-Telling Competition](data-story-telling-competition)
+  * [Machine Learning Competition](#machine-learning-competition)
+  * [Data Story-Telling Competition](#data-story-telling-competition)
   * [Prizes](#prizes-and-sponsors)
 * [Hackathon Parters](#hackathon-partners)
   * [Heart of England](#heart-of-england)
@@ -87,7 +87,7 @@ Although many other relevant datasets are available on the web, submissions for 
 
 The most important dataset is [imd.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/imd.csv). This gives indices of multiple deprivation for multiple local authorities districts (identified by their ONS code `lad_code` and name `lad_name`) in both 2015 and 2019. 20% of 2019 indices have been removed. It is your job to predict these using machine learning.
 
-To aid in this task, you are provided with the dataset [ref.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/imd.csv) which contains revenue expenditure and financing data for these same local authority districts over the years 2016 to 2019. 
+To aid in this task, you are provided with the dataset [ref.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/ref.csv) which contains revenue expenditure and financing data for these same local authority districts over the years 2016 to 2019. 
 
 Each expense (`expense`) is assigned a expense category (`category`) and has an associated expenditure for each year/local authority (`expenditure`) which is measured in thousands of pounds. Note, this can be negative if a profit was made (for example of a local authority car park brings in more profit than its upkeep cost).
 
@@ -108,7 +108,7 @@ Local authority lookup tables are provided for this purpose:
 
 - Combined Authorities: [lad_ca_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_ca_lut.csv)
 - Counties: [lad_cty_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_cty_lut.csv)
-- Fire and Rescue: [lad_far_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_far_lut.csv)
+- Fire and Rescue: [lad_fra_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_fra_lut.csv)
 - Police Force Areas: [lad_pfa_lut.csv](https://warwickdatascience.github.io/helping-hack-heart-of-england/resources/lad_pfa_lut.csv)
 
 `ref.csv` also contains information on national parks and waste facilities but lookup tables for these are hard to come by. Manual lookups or regex matching would be valid workarounds to this problem if one felt it was necessary.
